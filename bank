@@ -1,0 +1,27 @@
+def menu():
+    print("1.deposit","2.withdraw",3.balance")
+    ch=int(input("enter ur choice")
+    if ch==1:
+        deposit()
+    elif ch==2:
+        withdraw()
+    elif ch==3:
+        balance()
+print('welcom ATM')
+pin=int(input('enter ur pin no'))
+if pin==123:
+    menu()
+else:
+    print('invalid pin')
+    welcome()
+    balance=0
+def deposit():
+    global balance
+    print(int("emter the amt to deposit"))
+    amount=amount+balance
+def withdraw():
+    global balance
+    print(int("emter the amt to deposit"))
+    amount=amount-balance
+def balance():
+    print('available balanece',balance)
